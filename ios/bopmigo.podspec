@@ -5,13 +5,13 @@
 Pod::Spec.new do |s|
   s.name             = 'bopmigo'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.summary          = 'In-app feedback for Flutter apps on iPhone and Android.'
   s.description      = <<-DESC
-A new Flutter plugin project.
+Know what went wrong in your Flutter app. People report it in a line, and your team gets the whole story.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://bopmigo.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Bopmigo' => 'hello@bopmigo.com' }
   s.source           = { :path => '.' }
   s.source_files = 'bopmigo/Sources/bopmigo/**/*'
   s.dependency 'Flutter'
