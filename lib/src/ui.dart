@@ -201,7 +201,8 @@ class _SheetState extends State<_Sheet> with SingleTickerProviderStateMixin {
               borderRadius: const BorderRadius.vertical(top: Radius.circular(22)),
               child: SizedBox(
                 width: min(mq.size.width, 640),
-                child: Navigator(onGenerateRoute: (_) => MaterialPageRoute(builder: (_) => widget.page)),
+                // Its own navigation, kept apart from the app's so their page animations don't collide.
+                child: HeroControllerScope.none(child: Navigator(onGenerateRoute: (_) => MaterialPageRoute(builder: (_) => widget.page))),
               ),
             ),
           ),
