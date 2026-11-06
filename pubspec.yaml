@@ -1,6 +1,6 @@
 name: bopmigo
-description: "In-app feedback for Flutter apps on iPhone and Android. Testers report in a line, with a screenshot, device details and a short follow-up, and you can reply."
-version: 0.1.0
+description: "In-app feedback for Flutter apps on iPhone and Android. People report in a line, with a screenshot, device details and a short follow-up, and you can reply."
+version: 0.1.1
 homepage: https://bopmigo.com
 repository: https://github.com/bopmigo/bopmigo-flutter
 documentation: https://bopmigo.com/docs/add-in-app-feedback-to-flutter-app

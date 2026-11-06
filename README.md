@@ -1,6 +1,6 @@
 # Bopmigo for Flutter
 
-Know what went wrong in your Flutter app, on iPhone and Android. Testers report it in a line or two, and your team gets the whole story, with a short follow-up if something important is missing.
+Know what went wrong in your Flutter app, on iPhone and Android. People report it in a line or two, and your team gets the whole story, with a short follow-up if something important is missing.
 
 Reports arrive in your [Bopmigo](https://bopmigo.com) inbox, or in your email if you prefer. When you reply, they see it in your app and can answer back.
 

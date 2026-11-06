@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Clearer package description.
+
 ## 0.1.0
 
 First release.
