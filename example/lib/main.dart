@@ -43,7 +43,7 @@ class Tabs extends StatefulWidget {
 
 class _TabsState extends State<Tabs> {
   int tab = 0;
-  static const names = ['Checkout', 'Search', 'Profile', 'Settings'];
+  static const names = ['Stays', 'Search', 'Profile', 'Settings'];
 
   @override
   void initState() {
