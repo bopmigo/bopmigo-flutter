@@ -307,8 +307,9 @@ class ProfilePage extends StatelessWidget {
 
 Widget _section(String? title, List<Widget> rows) => Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       if (title != null) Padding(padding: const EdgeInsets.fromLTRB(16, 18, 16, 6), child: Text(title.toUpperCase(), style: const TextStyle(fontSize: 12, color: Colors.black54))) else const SizedBox(height: 16),
-      Container(
-        decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
+      Material(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(12),
         clipBehavior: Clip.antiAlias,
         child: Column(children: [
           for (var i = 0; i < rows.length; i++) ...[rows[i], if (i < rows.length - 1) const Divider(height: 1, indent: 52)],
