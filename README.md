@@ -1,3 +1,11 @@
+<p align="center"><img src="https://raw.githubusercontent.com/bopmigo/bopmigo-flutter/main/assets/banner.png" alt="Bopmigo for Flutter" width="100%"></p>
+
+<p align="center">
+  <a href="https://pub.dev/packages/bopmigo"><img src="https://img.shields.io/pub/v/bopmigo?style=flat-square&color=FF5A1F" alt="pub.dev"></a>
+  <img src="https://img.shields.io/badge/iPhone%20%26%20Android-supported-16130F?style=flat-square" alt="iPhone and Android">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16130F?style=flat-square" alt="MIT license"></a>
+</p>
+
 # Bopmigo for Flutter
 
 Know what went wrong in your Flutter app, on iPhone and Android. People report it in a line or two, and your team gets the whole story, with a short follow-up if something important is missing.

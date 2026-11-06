@@ -1,3 +1,7 @@
+## 0.1.2
+
+- README banner and badges.
+
 ## 0.1.1
 
 - Clearer package description.
