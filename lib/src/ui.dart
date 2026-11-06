@@ -292,7 +292,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
     final done = _step == _Step.done;
     return Scaffold(
       appBar: AppBar(
-        title: Text(done ? 'Sent' : 'What’s on your mind?', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w600)),
+        title: Text(done ? (_queued ? 'Saved' : 'Sent') : 'What’s on your mind?', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w600)),
         centerTitle: true,
         automaticallyImplyLeading: false,
         leadingWidth: 90,

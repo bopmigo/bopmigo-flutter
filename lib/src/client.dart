@@ -57,7 +57,7 @@ class BopmigoFailure implements Exception {
 class Client {
   Client._();
   static final shared = Client._();
-  static const version = '0.1.0';
+  static const version = '0.1.3';
 
   final _http = http.Client();
   String? _token;

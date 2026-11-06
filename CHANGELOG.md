@@ -1,3 +1,8 @@
+## 0.1.3
+
+- Reports show the correct package version.
+- A report saved while offline now says Saved, not Sent.
+
 ## 0.1.2
 
 - README banner and badges.
